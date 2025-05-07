@@ -6,10 +6,9 @@
 
 [config]
 # models
-model="o4-mini"
-fallback_models=["gpt-4.1"]
-#model_reasoning="o4-mini" # dedictated reasoning model for self-reflection
-#model_weak="gpt-4o" # optional, a weaker model to use for some easier tasks
+model="gpt-4.1-mini"
+fallback_models=["gpt-4o-mini"]
+model_weak="gpt-4.1-nano" # optional, a weaker model to use for some easier tasks
 # CLI
 git_provider="github"
 publish_output=true
